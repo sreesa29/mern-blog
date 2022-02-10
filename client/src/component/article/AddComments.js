@@ -17,7 +17,7 @@ function AddComments(props) {
         const username = commentValues.username;
         const text = commentValues.comment;
 
-        const response = await fetch(`http://localhost:8000/api/article/${name}/comments`, {
+        const response = await fetch(`/api/article/${name}/comments`, {
             method: 'post',
             body: JSON.stringify({ username, text }),
             headers: {

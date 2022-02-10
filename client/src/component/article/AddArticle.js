@@ -20,7 +20,7 @@ async function fetchArticle() {
     const title = addArticle.title;
     const description = addArticle.description;
 
-    const response = await fetch(`http://localhost:8000/api/article/addarticle`, {
+    const response = await fetch(`/api/article/addarticle`, {
         method: 'post',
         body: JSON.stringify({ name, ausername,title,description }),
         headers: {

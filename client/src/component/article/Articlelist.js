@@ -12,7 +12,7 @@ function Articlelist(props) {
         }, []);
 
     async function fetchData() {
-        const response = await fetch(`http://localhost:8000/api/article`);
+        const response = await fetch(`/api/article`);
         console.log(`1. ${response}`)
         const body = await response.json();
         console.log(`2. ${body}`);

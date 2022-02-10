@@ -16,7 +16,7 @@ function Navuser() {
     }
 
     useLayoutEffect(() => {
-        fetch("http://localhost:8000/isUserAuth", {
+        fetch("/isUserAuth", {
             headers: {
                 "x-access-token": localStorage.getItem("token")
             }

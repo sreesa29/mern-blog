@@ -13,7 +13,7 @@ function DeletingArticle(props) {
 
          useLayoutEffect(() => {
              async function FetchAP(){
-        const response = await fetch("http://localhost:8000/profile", {
+        const response = await fetch("/profile", {
             headers: {
                 "Content-type": "application/json",
                 "x-access-token": localStorage.getItem("token")
@@ -27,7 +27,7 @@ function DeletingArticle(props) {
     console.log(username)
 
       async function deletingArticle() {
-        const resp = await fetch(`http://localhost:8000/api/article/${name}/deleting`, {
+        const resp = await fetch(`/api/article/${name}/deleting`, {
             method: 'delete',
             headers:{
             "Content-type": "aplication/json",

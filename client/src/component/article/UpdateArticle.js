@@ -14,7 +14,7 @@ const [articleData, setArticleData]= useState([]);
 
 
 async function fetchAPI() {
-    const response = await fetch(`http://localhost:8000/api/article/${name}`);
+    const response = await fetch(`/api/article/${name}`);
     const body = await response.json();
     setArticleData(body);
 }
@@ -38,7 +38,7 @@ async function handleChange(e) {
         title: form[1].value,
         description: form[2].value
     }
-     const res = await fetch(`http://localhost:8000/api/article/${name}/updatearticle`, {
+     const res = await fetch(`/api/article/${name}/updatearticle`, {
             method: "PUT",
             headers: {
                 "Content-type": "application/json",

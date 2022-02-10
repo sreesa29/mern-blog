@@ -5,7 +5,7 @@ function UpvoteSection(props) {
     const { name, upvotes, setarticleData } = props;
 
     async function fetchUpVotes() {
-        const response = await fetch(`http://localhost:8000/api/article/${name}/upvotes`, {
+        const response = await fetch(`/api/article/${name}/upvotes`, {
             method: 'post'
         });
         const body = await response.json();

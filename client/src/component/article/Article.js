@@ -30,7 +30,7 @@ const Article = (props) => {
     },[name]);
 
     async function fetchAPI() {
-        const response = await fetch(`http://localhost:8000/api/article/${name}`);
+        const response = await fetch(`/api/article/${name}`);
         const body = await response.json();
         console.log(body);
         setArticleData(body);
