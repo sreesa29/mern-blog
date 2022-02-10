@@ -27,7 +27,4 @@
   "author": "Sree Sankar",
   "license": "ISC",
   "description": ""
-},
-"engines": {
-    "node": "16.13.1"
 }
