@@ -14,7 +14,7 @@ function Profile() {
         }, []);
 
     async function fetchData() {
-        const response = await fetch(`http://localhost:8000/profile`,{
+        const response = await fetch(`/profile`,{
             headers: {
                 "x-access-token": localStorage.getItem("token")
                 }
