@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap");
+
+.login-main {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+}
+.usernamelog:focus {
+  background-color: transparent !important;
+}
+.usernamelog {
+  border: none;
+  background: fixed;
+  background-color: transparent !important;
+  padding-top: 10px;
+  font-size: 25px;
+  border-bottom: 2px solid #f8961e;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+.passwordlog:focus {
+  background-color: transparent !important;
+}
+.passwordlog {
+  padding-top: 10px;
+  border: none;
+  background-color: transparent !important;
+  font-size: 25px;
+  border-bottom: 2px solid #f8961e;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  font-size: 20px;
+}
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.buttonlog {
+  border: 2px solid #f8961e;
+  border-radius: 10px;
+  width: 80px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+.buttonlog:hover {
+  background-color: #f8961e;
+  color: white;
+}
+
+.errormessage {
+  color: rgb(173, 0, 0);
+  font-size: small;
+  font-weight: bold;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  padding-right: 100px;
+  padding-top: 10px;
+  position: absolute;
+}
+
+.loginlabel {
+  font-size: 25px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: #f8961e;
+  font-weight: bolder;
+}
+.logother {
+  margin-right: 100px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: white;
+}
+.registerbuttoni {
+  color: white;
+}
+.login-mai {
+  border: 2px dashed #f8961e;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #0d3b66;
+}

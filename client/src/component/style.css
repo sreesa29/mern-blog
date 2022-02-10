@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.home {
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 1, 46) 13.5%,
+    rgba(6, 57, 84, 1) 78.6%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home {
+  padding: 12.5%;
+}
+.homep {
+  font: 300% "Bebas Neue", cursive;
+  color: rgb(255, 208, 0);
+  text-align: center;
+  text-shadow: 1px 5px 0px rgba(0, 0, 0, 0.72);
+}
+.centerme2 {
+  text-align: center;
+}
+.homebutton {
+  padding: 15px;
+  text-align: center;
+  border: 2px dashed rgb(255, 208, 0);
+  font: 100% "Bebas Neue", cursive;
+  background-color: #0f0c29; /* fallback for old browsers */
+  color: white;
+  box-shadow: 1px 8px 13px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 8px 13px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 8px 13px 2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 25px;
+}
+
+/* .homep {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+
+  padding: 10px;
+  margin: 10px;
+}
+.Link h1 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: crimson;
+  text-align: center;
+} */
+
+.error {
+  padding: 10px;
+  margin: 25px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: larger;
+  color: darkgoldenrod;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.ArLink {
+  padding: 15px;
+  margin: 25px;
+  block-size: auto;
+  color: rgb(0, 1, 46);
+  text-decoration-line: none;
+  border-bottom: 2px solid rgb(255, 208, 0);
+  text-align: justify;
+}
+.ArLink h2 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: rgb(0, 1, 46);
+}
+.more {
+  color: rgb(1, 1, 49);
+}
+
+/* upvote style */
+.votes {
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgb(255, 208, 0);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 600;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 15px;
+  border-top: 2px dashed rgb(0, 1, 46);
+  border-left: 2px dashed rgb(0, 1, 46);
+  border-right: 2px dashed rgb(0, 1, 46);
+}
+
+.uputton {
+  background-color: rgb(233, 227, 227);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(255, 208, 0);
+  font-weight: 300;
+  background-color: rgb(1, 1, 49);
+  border: solid 2px white;
+  border-radius: 25px;
+}
+.uputton:hover {
+  border: solid 2px rgb(255, 208, 0);
+  color: white;
+}
+.centerme {
+  background-color: rgb(255, 208, 0);
+  border-left: 2px dashed rgb(0, 1, 46);
+  border-right: 2px dashed rgb(0, 1, 46);
+
+  text-align: center;
+}
+/* article section */
+
+.article {
+  padding: 20px;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: rgb(0, 1, 46);
+}
+
+.articleh1 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.articleh5 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(255, 208, 0);
+  text-align: center;
+}
+
+.articlehp {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 100;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(255, 208, 0);
+}
+.articlehp::first-letter {
+  font-size: 200%;
+  color: rgb(255, 208, 0);
+  font-weight: 900;
+}
+
+.commentuser {
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 196, 0);
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: large;
+}
+.comment {
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 196, 0);
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: large;
+}
+.fuler {
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.commenth3 {
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  border: 2px dashed rgb(0, 1, 46);
+  border-radius: 10px;
+  text-align: center;
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.add-comment {
+  text-align: center;
+  padding-right: 40%;
+  padding-left: 40%;
+  border-bottom: 2px dashed rgb(0, 1, 46);
+  border-left: 2px dashed rgb(0, 1, 46);
+  border-right: 2px dashed rgb(0, 1, 46);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.commentbutton {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.h3commented {
+  padding-top: 20px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 900;
+}
+.commented {
+  padding: 15px;
+  border-bottom: 2px dashed #89216b;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+
+.someshows {
+  font-size: 36px;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  color: rgb(255, 196, 0);
+  text-shadow: 1px 5px 0px rgba(0, 0, 0, 0.72);
+}
+.paras {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(61, 66, 70);
+  border-top: 2px dashed rgb(255, 196, 0);
+  border-bottom: 2px dashed rgb(255, 196, 0);
+}

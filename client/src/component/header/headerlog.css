@@ -1,0 +1,29 @@
+.header1 {
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  /* position: fixed; */
+  height: 80px;
+  background-color: #330867;
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  color: rgb(255, 196, 0);
+  box-shadow: 3px -11px 27px -5px rgba(0, 0, 0, 0.75);
+}
+
+.logo1 {
+  color: rgb(255, 196, 0);
+  text-shadow: 0px 2px 1px black;
+  flex-grow: 1;
+  padding-left: 20px;
+  font-family: "Abril Fatface", cursive;
+}
+.link01 {
+  color: white;
+}
+.link01:hover {
+  color: rgb(255, 196, 0);
+  font-weight: 600;
+}

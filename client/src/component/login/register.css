@@ -1,0 +1,79 @@
+.uname,
+.umail,
+.fname,
+.gender,
+.password {
+  padding-top: 10px;
+  border: none;
+  background-color: transparent !important;
+  font-size: 25px;
+  border-bottom: 2px solid #f8961e;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+.logotherss {
+  margin-right: 100px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.regbutton {
+  border: 2px solid #f8961e;
+  border-radius: 10px;
+  width: 80px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+.regtitle {
+  font-size: 25px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: #f8961e;
+  font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.regma1 {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+}
+
+.regmain {
+  border: 2px dashed #f8961e;
+  padding: 35px;
+  border-radius: 10px;
+  background-color: #0d3b66;
+  flex-direction: column;
+  display: flex;
+  justify-self: center;
+}
+
+.regtitle {
+  display: flex;
+  align-self: flex-start;
+}

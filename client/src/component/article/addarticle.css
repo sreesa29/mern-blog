@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+.container {
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 1, 46) 13.5%,
+    rgba(6, 57, 84, 1) 78.6%
+  );
+}
+.form_field {
+  padding-top: 10px;
+  border: none;
+  background-color: transparent !important;
+  border-bottom: 2px solid #f8961e;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+.form__field {
+  padding-top: 10px;
+  border: none;
+  background-color: transparent !important;
+  border: 2px solid #f8961e;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+.add-article {
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 1, 46) 13.5%,
+    rgba(6, 57, 84, 1) 78.6%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  min-height: 100vh;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.addarticleh3 {
+  font-size: 25px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: #f8961e;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form__label {
+  font-size: 15px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  color: #f8961e;
+}
