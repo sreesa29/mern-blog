@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://sreesankar:Krishna@cluster0.nshve.mongodb.net/ict-blog-bootcamp?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://sreesankar:krishna12@cluster0.nshve.mongodb.net/ict-blog-bootcamp?retryWrites=true&w=majority")
 const Schema = mongoose.Schema;
 
 var userSchema = new Schema({
